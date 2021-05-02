@@ -10,7 +10,7 @@ public class FileIO {
 
         char searchChar = inputObj.next().charAt(0);  // Read user input
 
-        Scanner testFile = new Scanner(new FileInputStream("D:\\AI_Pro\\Java\\Day3\\Assignment\\src\\test.txt"));
+        Scanner testFile = new Scanner(new FileInputStream("src/test.txt"));
         //char searchChar = 'e';
         int count = 0;
         while (testFile.hasNextLine()) {

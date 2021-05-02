@@ -24,7 +24,7 @@ public class Collections {
 
     public static void main(String[] args) throws FileNotFoundException {
         Map<String, List<ArrayList<String>>> citiesMap = new HashMap<>();
-        Scanner citiesFile = new Scanner(new FileInputStream("D:\\AI_Pro\\Java\\Day3\\Assignment\\src\\Cities.txt"));
+        Scanner citiesFile = new Scanner(new FileInputStream("src/Cities.txt"));
         List<ArrayList<String>> AllCities = new ArrayList<ArrayList<String>>();
 
         while (citiesFile.hasNextLine()){
